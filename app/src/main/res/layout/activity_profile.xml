@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/artboard2"
+    tools:context=".Profile">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/home23"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/home"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/profile"
+        android:id="@+id/profile_img1"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/name"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/profile_name"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/roundedtext"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/name"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Major"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/profile_major"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/roundedtext"
+        android:textColor="@color/black"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:id="@+id/edit_profile"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedbutton"/>
+
+
+</LinearLayout>

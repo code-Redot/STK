@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Student Tool Kit</string>
+    <string name="Add_logo"><u>Add Logo</u></string>
+    <string name="menu_open">Open</string>
+    <string name="menu_close">Close</string></resources>

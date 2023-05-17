@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611069170414",
+    "project_id": "student-toolkit-app",
+    "storage_bucket": "student-toolkit-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611069170414:android:5a9ddb33ea0e8ae8a919ff",
+        "android_client_info": {
+          "package_name": "com.studentToolkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611069170414-c7irbkfcjcvj2f6iib4b74s8ggt54po0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3cQSNdp5gR8r8v0E-Jg4709kVLZVJz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611069170414-c7irbkfcjcvj2f6iib4b74s8ggt54po0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

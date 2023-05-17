@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/artboard5"
+    tools:context=".Rate">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/home24"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/home"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/outline_rate_review_24"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate us"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your opinion matters to us!"
+                    android:textSize="25dp"
+                    android:layout_marginTop="170dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your opinion matters to us!"
+                    android:textSize="20dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    />
+                <RatingBar
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/RatingBar"
+                    android:numStars="5"
+                    android:layout_gravity="center"
+                    android:layout_margin="16dp"
+                    android:rating="0"
+                    android:stepSize="0.5"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add Job"
+                    android:id="@+id/add_rating"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/roundedbutton"/>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="No Thanks"
+                    android:id="@+id/No_rating"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/navy"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

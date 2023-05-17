@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/artboard1"
+    tools:context=".MainScreen">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sing In"
+            android:id="@+id/sigin"
+            android:layout_marginTop="100dp"
+
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Sing Up"
+            android:id="@+id/sigup"
+
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"/>
+    </LinearLayout>
+
+
+</LinearLayout>

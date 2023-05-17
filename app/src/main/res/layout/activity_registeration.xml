@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/artboard"
+    tools:context=".Registeration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Information"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/red"
+                    android:id="@+id/warning_register"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full Name"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"/>
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/register_name"
+                    android:background="@drawable/roundedtext"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Major"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+
+                    android:textSize="15dp"/>
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+
+                    android:id="@+id/register_major"
+                    android:background="@drawable/roundedtext"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Security"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+
+                    android:layout_marginBottom="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"/>
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/register_email"
+                    android:background="@drawable/roundedtext"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"/>
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:id="@+id/register_password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="5dp"
+
+
+                    android:background="@drawable/roundedtext"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm Password"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15dp"/>
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:textSize="15dp"
+                    android:id="@+id/register_confirm"
+                    android:inputType="textPassword"
+                    android:background="@drawable/roundedtext"
+                    android:textColor="@color/black"
+                    android:paddingLeft="5dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:id="@+id/agree"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="I accept the Terms of Use"
+                        />
+
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sing Up"
+                    android:id="@+id/register"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/roundedbutton"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
