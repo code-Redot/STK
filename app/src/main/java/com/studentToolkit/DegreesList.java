@@ -57,6 +57,16 @@ public class DegreesList extends AppCompatActivity {
         {
             add_job.setVisibility(View.VISIBLE);
         }
+        add_job.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(DegreesList.this,AddSubject.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                startActivity(intent);
+                finish();
+            }
+        });
         readUsers();
 
 

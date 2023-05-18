@@ -26,16 +26,17 @@
         android:text="Clubs"
         android:textColor="@color/black"
         android:textSize="35dp"/>
+
     <TextView
-        android:layout_gravity="end"
+        android:id="@+id/club_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Club"
-        android:gravity="end"
+        android:layout_gravity="end"
         android:layout_marginRight="10dp"
-        android:id="@+id/club_add"
+        android:gravity="end"
+        android:text="Request Club"
         android:textColor="@color/navy"
-        android:textSize="15dp"/>
+        android:textSize="15dp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
