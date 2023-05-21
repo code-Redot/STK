@@ -139,10 +139,10 @@ public class Registeration extends AppCompatActivity {
             checked=false;
             warning.setText("Email Format not correct ");
         }
-        else if(pass.getText().length()<6)
+        else if(pass.getText().length()<9)
         {
             checked=false;
-            warning.setText("Password must be more than 5 characters ");
+            warning.setText("Password must be more than 8 characters ");
         }
         else if(!email.getText().toString().contains("@pmu.edu.sa"))
         {
