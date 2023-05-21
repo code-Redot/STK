@@ -84,7 +84,8 @@ public class Registeration extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             FirebaseUser firebaseUser=auth.getCurrentUser();
                             String userid=firebaseUser.getUid();
-                            User user=new User(name.getText().toString(),userid,"default",email.getText().toString(),"",major.getText().toString(),"","yes","yes","yes");
+                            User user=new User(name.getText().toString(),userid,"default",email.getText().toString(),
+                                    "",major.getText().toString(),"","yes","yes","yes");
                             FirebaseDatabase.getInstance().getReference("Users")
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                     .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {

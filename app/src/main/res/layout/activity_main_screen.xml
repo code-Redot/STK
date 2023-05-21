@@ -12,24 +12,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sigin"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="Sing In"
-            android:id="@+id/sigin"
             android:layout_marginTop="100dp"
+            android:background="@drawable/roundedbutton"
 
-            android:textColor="@color/white"
-            android:background="@drawable/roundedbutton"/>
+            android:text="Sign In"
+            android:textColor="@color/white" />
+
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sigup"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:text="Sing Up"
-            android:id="@+id/sigup"
+            android:background="@drawable/roundedbutton"
 
-            android:textColor="@color/white"
-            android:background="@drawable/roundedbutton"/>
+            android:text="Sign Up"
+            android:textColor="@color/white" />
     </LinearLayout>
 
 

@@ -126,7 +126,8 @@ public class AddSubject extends AppCompatActivity {
     {
         String timestamp=String.valueOf(date.getTime());
         Subject subject=new Subject(timestamp,name.getText().toString(),code.getText().toString(),
-                spinner.getSelectedItem().toString(),spinner1.getSelectedItem().toString(),spinner3.getSelectedItem().toString(),spinner2.getSelectedItem().toString());
+                spinner.getSelectedItem().toString(),spinner1.getSelectedItem().toString(),
+                spinner3.getSelectedItem().toString(),spinner2.getSelectedItem().toString());
         FirebaseDatabase.getInstance().getReference("Subject")
                 .child(timestamp)
                 .setValue(subject).addOnCompleteListener(new OnCompleteListener<Void>() {
