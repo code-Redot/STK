@@ -165,15 +165,16 @@
                         />
 
                 </LinearLayout>
+
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/register"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:text="Sing Up"
-                    android:id="@+id/register"
-                    android:layout_marginTop="30dp"
                     android:layout_gravity="center"
-                    android:textColor="@color/white"
-                    android:background="@drawable/roundedbutton"/>
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="Sign Up"
+                    android:textColor="@color/white" />
 
             </LinearLayout>
 
