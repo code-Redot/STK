@@ -107,7 +107,7 @@ public class LoginScreen extends AppCompatActivity {
 
                                 Toast.makeText(LoginScreen.this, "Authentication failed.",
                                         Toast.LENGTH_SHORT).show();
-                                warning.setText("Email or Password is wrong ");
+                                warning.setText("Email or Password is wrong");
 
                             }
                         }
